@@ -1,6 +1,6 @@
 import json
 
-file = "library.json"
+file = "resource/library.json"
 
 
 def load():

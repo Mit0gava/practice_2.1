@@ -11,7 +11,6 @@ with open("text.txt", "w", encoding="utf-8") as file:
     for line in lines:
         file.write(line + "\n")
 
-
 with open("text.txt", "r", encoding="utf-8") as file:
     data = file.readlines()
 

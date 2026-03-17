@@ -1,6 +1,6 @@
 import csv
 
-filename = "products.csv"
+filename = "resource/products.csv"
 
 products = []
 

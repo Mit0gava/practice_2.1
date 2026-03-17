@@ -2,7 +2,6 @@ from datetime import datetime
 
 log_file = "calculator.log"
 
-
 def show_last():
     try:
         with open(log_file, "r") as file:
@@ -18,10 +17,7 @@ def clear_log():
     open(log_file, "w").close()
     print("Лог очищен")
 
-
 show_last()
-
-
 
 try:
     a = float(input("Введите первое число: "))
